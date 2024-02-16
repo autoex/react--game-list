@@ -2,7 +2,6 @@ import React from 'react';
 import GameGallery from '../game-gallery';
 
 const GameRow = ({ price, inWishList, name, images }) => {
-  console.log(inWishList);
   return (
     <li className='game-row'>
       <span className='game-name'>{name}</span>
